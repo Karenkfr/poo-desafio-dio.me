@@ -25,6 +25,16 @@ public class Curso extends Conteudo{
 		return "Curso [titulo=" + getTitulo() + ", descricao=" + getDescricao() + ", cargaHoraria=" + cargaHoraria + "]";
 	}
 
+	@Override
+	public String mostraEvolucao() {
+		if(cargaHoraria == 0 ) {
+			return "Há a necessidade de inserir uma carga horária no curso";
+		}else {
+			return "A carga horária do curso foi adicionada";
+		}
+	
+	}
+
 
 
 }
