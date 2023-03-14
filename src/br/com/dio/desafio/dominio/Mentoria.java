@@ -29,4 +29,17 @@ public class Mentoria extends Conteudo {
 		return "Mentoria [titulo=" + getTitulo() + ", descricao=" + getDescricao() + ", data=" + data + "]";
 	}
 
+	@Override
+	public String mostraEvolucao() {
+		if(getTitulo() == null ) {
+			return "É necessário que se insira um título";
+		}else if ( getDescricao() == null){
+			return "É necessário que se insira uma descrição";
+		}else {
+			return "Título e Descrição inseridos com sucesso.";
+		}
+		
+		
+	}
+
 }
