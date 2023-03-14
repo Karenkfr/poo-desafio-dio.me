@@ -17,7 +17,7 @@ Esse repositório apresenta alterações realizadas no código original do desaf
  :computer: Na classe Dev o método mostrarEvolução irá ser acionada em função do método progredir; sendo assim, confere a evolução em XP do aluno do   bootcamp conforme vai progredindo no curso; </br>
  :computer:  Na classe Bootcamp o método mostrarEvolução mostra se há a inserção de devs inscritos no Bootcamp; </br>
  :computer: Na classe Curso o método mostrarEvolução mostra a evolução da instância de um curso em relação a inserção de uma carga horária não nula. </br>
- :computer: Na classe Mentoria o método mostrarEvolução garante que os atributos Título e descrição sejam instânciados não nulos.
+ :computer: Na classe Mentoria o método mostrarEvolução garante que os atributos título e descrição sejam instânciados não nulos.
 
 
 
