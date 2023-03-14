@@ -4,10 +4,21 @@ public abstract class  Conteudo {
 
 protected static final double XP_PADRAO = 10d;
 	
+	private String nome;
 	private String titulo;
 	private String descricao;
 	
 	public abstract double calcularXP();
+	
+	public abstract String mostraEvolucao();
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
 	public String getTitulo() {
 		return titulo;
@@ -24,7 +35,7 @@ protected static final double XP_PADRAO = 10d;
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
+
 	
 	
 }
